@@ -1,8 +1,8 @@
-title: Your Title
+title: IndiQ Meetups
 description: > # this means to ignore newlines until "baseurl:"
-  Your description
+  Quantum Computing Meetups in India
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "Your-Link.github.io" # the base hostname & protocol for your site
+url: "https://indiq-meetups.github.io/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
