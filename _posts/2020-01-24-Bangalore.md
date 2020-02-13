@@ -2,7 +2,9 @@
 layout: meetup
 title: Hands-on Introduction to Quantum Computing
 city: Bangalore
-time: 2020-01-24T10:00
+venue: PES University
+date: 2020-01-24T10:00
+published: true
 ---
 
 Details

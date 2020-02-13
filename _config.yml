@@ -33,3 +33,6 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Publish future-dated posts
+future: true

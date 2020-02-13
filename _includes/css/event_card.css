@@ -13,7 +13,7 @@
 
 .subtle {
   color: #888;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .card-media {
@@ -156,6 +156,7 @@
 .card-media-body-heading {
   display: block;
   margin-top: 10px;
+  font-size: 20px;
 }
 
 .card-media-body-supporting-bottom {
