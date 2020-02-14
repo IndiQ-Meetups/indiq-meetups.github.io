@@ -8,51 +8,76 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Samanvay Sharma
+  pic: samanvay
+  city: New Delhi
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: https://twitter.com/AnsatzX
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/samanvay-sharma/
+    - title: github
+      url: https://github.com/starktech23
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Rana Prathap
+  pic: rana
+  city: Hyderabad
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: https://twitter.com/RanaPrathapSimh
+    - title: linkedin
+      url: https://www.linkedin.com/in/ranaprathapsimh/
+    - title: github
+      url: https://github.com/Yoghurtyam
+
+- name: Frederik Hardervig
+  pic: frederik
+  city: Hyderabad
+  social:
+    - title: twitter
+      url: https://twitter.com/FredHardervig
+    - title: linkedin
+      url: https://www.linkedin.com/in/frederikhardervig/
+    - title: github
+      url: https://github.com/Fhardervig
+
+- name: Madhav Jivrajani
+  pic: madhav
+  city: Bangalore
+  social:
+    - title: twitter
+      url: https://twitter.com/MadhavJivrajani
+    - title: linkedin
+      url: https://www.linkedin.com/in/madhav-jivrajani/
+
+- name: Shadab Hussain
+  pic: shadab
+  city: Bangalore
+  social:
+    - title: twitter
+      url: https://twitter.com/shadabhusain786
+    - title: linkedin
+      url: https://www.linkedin.com/in/shadabhussain96/
+    - title: github
+      url: https://github.com/shadab-entrepreneur/
+
+- name: Rahul Pratap Singh
+  pic: rahul
+  city: Kolkata
+  social:
+    - title: twitter
+      url: https://twitter.com/RahulPSingh3
+    - title: linkedin
+      url: https://www.linkedin.com/in/rahul-pratap-singh-1a31a5138/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: https://twitter.com/IndiQmeetups
+  - title: youtube
+    url: https://www.youtube.com/channel/UCrGwYEY1Y4pgTe1jCopu6NQ/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/IndiQ-Meetups
 
 # Postal address (add as many lines as necessary)
 address:
