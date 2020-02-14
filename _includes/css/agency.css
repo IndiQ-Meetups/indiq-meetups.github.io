@@ -18,6 +18,10 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.text-middle {
+    vertical-align: middle;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -325,7 +329,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 section h2.section-heading {
@@ -345,9 +349,11 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding-top: 150px 0;
     }
 }
+
+
 
 .service-heading {
     margin: 15px 0;
@@ -652,8 +658,13 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
-    margin: 50px auto;
+.img-sponsors {
+    margin: 30px auto;
+    height: 80px;
+}
+
+section.sponsors {
+    padding: 30px;
 }
 
 section#contact {
