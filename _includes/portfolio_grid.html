@@ -19,6 +19,7 @@
                         <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
+                        <h5>{{ post.date | date: "%a, %e %b, %I:%M %p"}}</h5>
                         <h4>{{ post.title }}</h4>
                         <p class="text-muted">{{ post.city }}</p>
                     </div>
