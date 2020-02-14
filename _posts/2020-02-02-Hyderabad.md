@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 2
+modal-id: 3
 title: Hands-on Introduction to Quantum Computing
 city: Hyderabad
 venue: T-Hub
