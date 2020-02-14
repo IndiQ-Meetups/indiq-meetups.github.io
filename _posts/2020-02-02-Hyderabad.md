@@ -5,9 +5,7 @@ title: Hands-on Introduction to Quantum Computing
 city: Hyderabad
 venue: T-Hub
 date: 2020-02-02T13:30
-img: dreams.png
-thumbnail: dreams-thumbnail.png
-alt: image-alt
+img: hyderabad.jpeg
 published: true
 ---
 

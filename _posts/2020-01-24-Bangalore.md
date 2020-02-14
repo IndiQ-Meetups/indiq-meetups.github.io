@@ -5,9 +5,7 @@ title: Hands-on Introduction to Quantum Computing
 city: Bangalore
 venue: PES University
 date: 2020-01-24T10:00
-img: dreams.png
-thumbnail: dreams-thumbnail.png
-alt: image-alt
+img: bangalore.jpeg
 published: true
 ---
 
