@@ -1,15 +1,13 @@
 ---
-layout: meetup
+layout: default
+modal-id: 3
 title: Hands-on Introduction to Quantum Computing
 city: Hyderabad
 venue: T-Hub
 date: 2020-02-02T13:30
+img: hyderabad.jpeg
 published: true
 ---
-
-Details
-[REGISTRATION FORM BELOW]
-
 Welcome to our first monthly meetup in Hyderabad for those interested in Quantum Computing!
 
 Here's our Agenda:

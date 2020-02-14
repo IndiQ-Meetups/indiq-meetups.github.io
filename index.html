@@ -2,49 +2,19 @@
 layout: default
 ---
 
-<!-- Header -->
-<header>
-    <div class="container">
-        <div class="intro-text">
-            <div class="intro-heading">IndiQ Meetups<br></div>
-            <div class="intro-lead-in">Monthly quantum computing meetups across India</div>
-            <a href="#meetups" class="page-scroll btn btn-xl">Tell Me More</a>
-        </div>
-    </div>
-</header>
+<div class="home">
 
-<section id="meetups">
-    <div class="container">
-        {% for post in site.posts %}
-        <div class="card-media">
-        <!-- media container -->
-        <div class="card-media-object-container">
-        <div class="card-media-object" style="background-image: url(https://s9.postimg.cc/y0sfm95gv/prince_f.jpg);"></div>
-        <!-- add "Past Event" label to past events-->
-        {% capture nowtime %}{{'now' | date: '%s'}}{% endcapture %}
-        {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-        {% if posttime > nowtime %}
-            <span class="card-media-object-tag subtle">Upcoming Event</span>
-        {% else %}
-            <span class="card-media-object-tag subtle">Past Event</span>
-        {% endif %}
-        </div>
-        <!-- body container -->
-        <div class="card-media-body">
-        <div class="card-media-body-top">
-            <span class="subtle">{{ post.date | date: "%a, %e %b, %I:%M %p"}}</span>
-        </div>
-        <span class="card-media-body-heading">{{ post.title }}</span>
-        <div class="card-media-body-supporting-bottom">
-            <span class="card-media-body-supporting-bottom-text subtle">{{ post.venue}}, {{post.city }}</span>
-            <span class="card-media-body-supporting-bottom-text subtle u-float-right">Free</span>
-        </div>
-        <div class="card-media-body-supporting-bottom card-media-body-supporting-bottom-reveal">
-            <span class="card-media-body-supporting-bottom-text subtle">#Quantum Computing #Qiskit</span>
-            <a href="{{post.url}}" class="card-media-body-supporting-bottom-text card-media-link u-float-right">VIEW DETAILS</a>
-        </div>
-        </div>
-        </div>
-        {% endfor %}
-    </div>
-</section>
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

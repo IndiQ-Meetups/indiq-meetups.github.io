@@ -1,38 +1,91 @@
-title: IndiQ Meetups
-description: > # this means to ignore newlines until "baseurl:"
-  Quantum Computing Meetups in India
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://indiq-meetups.github.io/" # the base hostname & protocol for your site
-# Build settings
-markdown: kramdown
+url: https://indiq-meetups.github.io
 
-facebook:
-  app_id: 
+# Site settings
+title: IndiQ
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-logo: "../css/img/icon-large.png"
 
-social: 
-  name: Your Facebook Page
-  link: "https://www.facebook.com/"
+# Team names, titles and social links
+people:
+- name: Samanvay Sharma
+  pic: samanvay
+  city: New Delhi
+  social:
+    - title: twitter
+      url: https://twitter.com/AnsatzX
+    - title: linkedin
+      url: https://www.linkedin.com/in/samanvay-sharma/
+    - title: github
+      url: https://github.com/starktech23
 
-google_site_verification: googleXXXXXXXXXXXXXXXX.html
+- name: Rana Prathap
+  pic: rana
+  city: Hyderabad
+  social:
+    - title: twitter
+      url: https://twitter.com/RanaPrathapSimh
+    - title: linkedin
+      url: https://www.linkedin.com/in/ranaprathapsimh/
+    - title: github
+      url: https://github.com/Yoghurtyam
 
-include: ['_pages']
+- name: Frederik Hardervig
+  pic: frederik
+  city: Hyderabad
+  social:
+    - title: twitter
+      url: https://twitter.com/FredHardervig
+    - title: linkedin
+      url: https://www.linkedin.com/in/frederikhardervig/
+    - title: github
+      url: https://github.com/Fhardervig
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+- name: Madhav Jivrajani
+  pic: madhav
+  city: Bangalore
+  social:
+    - title: twitter
+      url: https://twitter.com/MadhavJivrajani
+    - title: linkedin
+      url: https://www.linkedin.com/in/madhav-jivrajani/
+
+- name: Shadab Hussain
+  pic: shadab
+  city: Bangalore
+  social:
+    - title: twitter
+      url: https://twitter.com/shadabhusain786
+    - title: linkedin
+      url: https://www.linkedin.com/in/shadabhussain96/
+    - title: github
+      url: https://github.com/shadab-entrepreneur/
+
+- name: Rahul Pratap Singh
+  pic: rahul
+  city: Kolkata
+  social:
+    - title: twitter
+      url: https://twitter.com/RahulPSingh3
+    - title: linkedin
+      url: https://www.linkedin.com/in/rahul-pratap-singh-1a31a5138/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
-    url: https://www.facebook.com
   - title: twitter
-    url: https://twitter.com
+    url: https://twitter.com/IndiQmeetups
+  - title: youtube
+    url: https://www.youtube.com/channel/UCrGwYEY1Y4pgTe1jCopu6NQ/
+  - title: github
+    url: https://github.com/IndiQ-Meetups
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 
-# Publish future-dated posts
 future: true
