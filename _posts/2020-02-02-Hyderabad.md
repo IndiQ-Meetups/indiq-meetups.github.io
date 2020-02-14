@@ -8,10 +8,6 @@ date: 2020-02-02T13:30
 img: hyderabad.jpeg
 published: true
 ---
-
-Details
-[REGISTRATION FORM BELOW]
-
 Welcome to our first monthly meetup in Hyderabad for those interested in Quantum Computing!
 
 Here's our Agenda:
