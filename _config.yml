@@ -74,8 +74,12 @@ people:
 social:
   - title: twitter
     url: https://twitter.com/IndiQmeetups
+  - title: meetup
+    url: https://www.meetup.com/IndiQ-Meetups/
   - title: youtube
     url: https://www.youtube.com/channel/UCrGwYEY1Y4pgTe1jCopu6NQ/
+  - title: slack
+    url: https://join.slack.com/t/qiskit/shared_invite/enQtODQ2NTIyOTgwMTQ3LTI0NzM2NzkzZjJhNDgzZjY5MTQzNDY3MGNiZGQzNTNkZTE4Nzg1MjMwMmFjY2UwZTgyNDlmYWQwYmZjMjE1ZTM
   - title: github
     url: https://github.com/IndiQ-Meetups
 
