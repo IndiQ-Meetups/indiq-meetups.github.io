@@ -18,8 +18,12 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.text-middle {
+    vertical-align: middle;
+}
+
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
@@ -325,29 +329,37 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 36px;
+}
+
+section h2.section-subheading {
+    text-transform: none;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 400;
 }
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding-top: 150px 0;
     }
 }
+
+
 
 .service-heading {
     margin: 15px 0;
@@ -417,9 +429,6 @@ section h3.section-subheading {
 
 #events .event-item .event-caption p {
     margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
-    font-style: italic;
 }
 
 #events * {
@@ -652,8 +661,13 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
-    margin: 50px auto;
+.img-sponsors {
+    margin: 30px auto;
+    height: 80px;
+}
+
+section.sponsors {
+    padding: 30px;
 }
 
 section#contact {
@@ -721,6 +735,11 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+section#social {
+    padding: 100px 0;
+    text-align: center;
+}
+
 footer {
     padding: 25px 0;
     text-align: center;
@@ -786,7 +805,7 @@ ul.social-buttons li a:active {
 
 .event-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .event-modal .modal-content p {
