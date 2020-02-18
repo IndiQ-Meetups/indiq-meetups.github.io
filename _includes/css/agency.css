@@ -662,12 +662,19 @@ section h3.section-subheading {
 }
 
 .img-sponsors {
-    margin: 30px auto;
+    margin: 50px;
+    margin-bottom: 0px;
     height: 80px;
 }
 
-section.sponsors {
-    padding: 30px;
+section#sponsors {
+    padding: 100px 0;
+    text-align: center;
+}
+
+section#social {
+    padding: 100px 0;
+    text-align: center;
 }
 
 section#contact {
@@ -733,11 +740,6 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
-}
-
-section#social {
-    padding: 100px 0;
-    text-align: center;
 }
 
 footer {
