@@ -1,6 +1,5 @@
 ---
 layout: default
-modal-id: 1
 title: Hands-on Introduction to Quantum Computing
 city: Bangalore
 venue: PES University
