@@ -1,8 +1,8 @@
  <!-- Event Modals -->
- {% assign eventid = 1 %}
  {% for post in site.posts %}
-    {% increment eventid %}
-    <div class="event-modal modal fade" id="event-{{eventid}}" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Remove space in city names such as "New Dehli" => "NewDelhi"-->
+    {% capture eventid %}{{ post.city | remove: " "}}-{{ post.date | date: "%b-%Y"}}{% endcapture %}
+    <div class="event-modal modal fade" id="{{eventid}}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
