@@ -17,18 +17,17 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
                             <img src="img/meetup/{{ post.img }}" class="img-responsive img-centered" alt="">
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>{{ post.date | date: "%a, %e %b, %I:%M %p"}}</strong>
-                                </li>
-                                <li>Venue:
-                                    <strong>{{ post.venue }}, {{post.city}}</strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <div class="event-details">
+                                <ul class="list-inline">
+                                    <li>Date:
+                                        <strong>{{ post.date | date: "%a, %e %b, %I:%M %p"}}</strong>
+                                    </li>
+                                    <li>Venue:
+                                        <strong>{{ post.venue }}, {{post.city}}</strong>
+                                    </li>
+                                </ul>
+                                <a class="btn btn-primary" href="{{post.registration-link}}" role="button">Register</a>
+                            </div>
                             <p>{{ post.content }}</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>

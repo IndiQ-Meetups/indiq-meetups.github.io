@@ -73,6 +73,10 @@ h6 {
     background-color: #222;
 }
 
+.event-details {
+    text-align: center;
+}
+
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
