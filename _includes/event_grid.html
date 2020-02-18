@@ -8,14 +8,11 @@
                 </div>
             </div>
             <div class="row">
+            {% assign eventid = 1 %}
             {% for post in site.posts %}
-                {% if post.city == "New Dehli" %}
-                    {% capture eventid %}New-Dehli-{{ post.date | date: "%b-%Y"}}{% endcapture %}
-                {% else %}
-                    {% capture eventid %}{{ post.city }}-{{ post.date | date: "%b-%Y"}}{% endcapture %}
-                {% endif %}
+                {% increment eventid %}
                 <div class="col-md-4 col-sm-6 event-item">
-                    <a href="#{{eventid}}" class="event-link" data-toggle="modal">
+                    <a href="#event-{{eventid}}" class="event-link" data-toggle="modal">
                         <div class="event-hover">
                             <div class="event-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>

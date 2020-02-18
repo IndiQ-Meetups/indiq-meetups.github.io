@@ -1,11 +1,8 @@
  <!-- Event Modals -->
+ {% assign eventid = 1 %}
  {% for post in site.posts %}
-    {% if post.city == "New Dehli" %}
-        {% capture eventid %}New-Dehli-{{ post.date | date: "%b-%Y"}}{% endcapture %}
-    {% else %}
-        {% capture eventid %}{{ post.city }}-{{ post.date | date: "%b-%Y"}}{% endcapture %}
-    {% endif %}
-    <div class="event-modal modal fade" id="{{eventid}}" tabindex="-1" role="dialog" aria-hidden="true">
+    {% increment eventid %}
+    <div class="event-modal modal fade" id="event-{{eventid}}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
