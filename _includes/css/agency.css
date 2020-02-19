@@ -181,6 +181,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+    text-shadow: 1px 1px #333333;
 }
 
 .navbar-default .navbar-brand {
@@ -284,6 +285,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    text-shadow: 2px 2px #333333;
 }
 
 header .intro-text {
