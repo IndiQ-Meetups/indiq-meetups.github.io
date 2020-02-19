@@ -9,8 +9,10 @@
             </div>
             <div class="row">
             {% for post in site.posts %}
+                <!-- Remove space in city names such as "New Dehli" => "NewDelhi"-->
+                {% capture eventid %}{{ post.city | remove: " "}}-{{ post.date | date: "%b-%Y"}}{% endcapture %}
                 <div class="col-md-4 col-sm-6 event-item">
-                    <a href="#eventModal{{ post.modal-id }}" class="event-link" data-toggle="modal">
+                    <a href="#{{eventid}}" class="event-link" data-toggle="modal">
                         <div class="event-hover">
                             <div class="event-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>

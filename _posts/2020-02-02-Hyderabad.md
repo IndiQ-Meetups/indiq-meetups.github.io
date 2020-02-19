@@ -1,11 +1,11 @@
 ---
 layout: default
-modal-id: 3
 title: Hands-on Introduction to Quantum Computing
 city: Hyderabad
 venue: T-Hub
 date: 2020-02-02T13:30
 img: hyderabad.jpeg
+registration-link: https://indiq.typeform.com/to/cf7iIo
 published: true
 ---
 Welcome to our first monthly meetup in Hyderabad for those interested in Quantum Computing!
@@ -22,13 +22,7 @@ Here's our Agenda:
 
 5) Networking with Pizza!
 
-On: February 2nd, 2020
-At: T-Hub, IIIT Hyderabad Campus
-From: 1:30 PM to 6:00 PM
-
 Prerequisite: Knowledge of Python. It is a big advantage to be familiar with Jupyter Notebooks, but we will be sending out an e-mail to participants before the actual meetup with the resources.
-
-Registration form: https://indiq.typeform.com/to/cf7iIo
 
 You can send an email with your queries to
 Rana Prathap: rana.prathap.simh@gmail.com
