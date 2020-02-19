@@ -1,7 +1,7 @@
-url: https://indiq-meetups.github.io
+url: http://indiq.org
 
 # Site settings
-title: IndiQ
+title: IndiQ Meetups
 email: your-email@domain.com
 description: "Quantum computing community across India"
 
@@ -61,7 +61,7 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/shadabhussain96/
     - title: github
-      url: https://github.com/shadab-entrepreneur/
+      url: https://github.com/shadab-entrepreneur
 
 - name: Rahul Pratap Singh
   pic: rahul
@@ -71,6 +71,8 @@ people:
       url: https://twitter.com/RahulPSingh3
     - title: linkedin
       url: https://www.linkedin.com/in/rahul-pratap-singh-1a31a5138/
+    - title: github
+      url: https://github.com/Rahps97
 
 
 # Sponsors
