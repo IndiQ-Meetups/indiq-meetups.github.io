@@ -20,11 +20,13 @@
                         </div>
                         <img src="img/meetup/{{ post.img }}" class="img-responsive img-centered" alt="">
                     </a>
-                    <div class="event-caption">
-                        <h5>{{ post.date | date: "%a, %e %b, %I:%M %p"}}</h5>
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.city }}</p>
-                    </div>
+                    <a href="#{{eventid}}" style="text-decoration:none" data-toggle="modal">
+                        <div class="event-caption">
+                            <h5>{{ post.date | date: "%a, %e %b, %I:%M %p"}}</h5>
+                            <h4>{{ post.title }}</h4>
+                            <p class="text-muted">{{ post.city }}</p>
+                        </div>  
+                    </a>
                 </div>
             {% endfor %}
             </div>
