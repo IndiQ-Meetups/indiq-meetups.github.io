@@ -19,7 +19,7 @@ people:
     - title: github
       url: https://github.com/starktech23
 
-- name: Rana prathap
+- name: Rana Prathap
   pic: rana
   city: Hyderabad
   social:
@@ -41,28 +41,6 @@ people:
     - title: github
       url: https://github.com/Fhardervig
 
-- name: Madhav Jivrajani
-  pic: madhav
-  city: Bangalore
-  social:
-    - title: twitter
-      url: https://twitter.com/MadhavJivrajani
-    - title: linkedin
-      url: https://www.linkedin.com/in/madhav-jivrajani/
-    - title: github
-      url: https://github.com/MadhavJivrajani
-
-- name: Shadab Hussain
-  pic: shadab
-  city: Bangalore
-  social:
-    - title: twitter
-      url: https://twitter.com/shadabhusain786
-    - title: linkedin
-      url: https://www.linkedin.com/in/shadabhussain96/
-    - title: github
-      url: https://github.com/shadab-entrepreneur
-
 - name: Rahul Pratap Singh
   pic: rahul
   city: Kolkata
@@ -73,6 +51,28 @@ people:
       url: https://www.linkedin.com/in/rahul-pratap-singh-1a31a5138/
     - title: github
       url: https://github.com/Rahps97
+
+- name: Radha Pyari Sandhir
+  pic: radha
+  city: Delhi
+  social:
+    - title: twitter
+      url: https://twitter.com/RadhaPyari
+    - title: linkedin
+      url: https://www.linkedin.com/in/radha-pyari-sandhir/
+    - title: github
+      url: https://github.com/quantum-kittens
+
+- name: Kiran Johns
+  pic: kiran
+  city: Kerala
+  social:
+    - title: twitter
+      url: https://twitter.com/thetronjohnson
+    - title: linkedin
+      url: https://www.linkedin.com/in/kiranjohns/
+    - title: github
+      url: https://github.com/thetronjohnson
 
 
 # Sponsors
